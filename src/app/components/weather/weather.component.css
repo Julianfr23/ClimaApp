@@ -1,0 +1,63 @@
+/* Application background */
+.app-container {
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Styles for the search field */
+.weather-search {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.weather-search input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid #030303;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.weather-search button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffa602;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.weather-search button:hover {
+  background-color: #ca8402;
+  color: rgb(255, 255, 255);
+}
+
+/* Forecast Table Styles */
+.weather-table {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #555;
+  color: #050505;
+}
+
+td {
+  background-color: #eee;
+}
